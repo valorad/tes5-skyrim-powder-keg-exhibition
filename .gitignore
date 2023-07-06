@@ -9,3 +9,15 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# site specific
+.vscode/**
+!.vscode/extensions.json
+!.vscode/launch.json
+
+*.pex
+
+[Mm]eshes/**
+[Tt]extures/**
+meta.ini
+skyrimse.ppj
